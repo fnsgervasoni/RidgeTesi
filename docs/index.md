@@ -1,6 +1,6 @@
 ---
 title: "tutorial"
-output: html_document
+layout:default
 ---
 
 ```{r setup, include=FALSE}
