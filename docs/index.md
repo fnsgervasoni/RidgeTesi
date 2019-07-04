@@ -3,8 +3,6 @@ title: "Tutorial Regressione Ridge"
 layout: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)```
 
 # Uso della regressione Ridge per dati biomedici
 
