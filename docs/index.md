@@ -4,8 +4,7 @@ layout: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+knitr::opts_chunk$set(echo = TRUE)```
 
 # Uso della regressione Ridge per dati biomedici
 
@@ -23,8 +22,7 @@ pacman::p_load(dplyr,
                knitr,
                magrittr,
                readxl,
-               tidyverse)
-```
+               tidyverse)```
 
 Importiamo il set di dati dalla tabella excel.
 
