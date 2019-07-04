@@ -20,7 +20,8 @@ pacman::p_load(dplyr,
                knitr,
                magrittr,
                readxl,
-               tidyverse)```
+               tidyverse)
+```
 
 Importiamo il set di dati dalla tabella excel.
 
