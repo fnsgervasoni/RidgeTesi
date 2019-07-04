@@ -1,17 +1,17 @@
 ---
-title: "tutorial"
-layout:default
+title: "Tutorial Regressione Ridge"
+layout: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#Uso della regressione Ridge per dati biomedici
+# Uso della regressione Ridge per dati biomedici
 
 I dati provengono da uno studio che riguarda l'uso della macchina da perfusione ipotermica ossigenata per conservare i fegati fino al loro utilizzo per il trapianto. 
 
-##Analisi
+## Analisi
 
 Prima di cominciare è necessario caricare i pacchetti *glmnet* e *dplyr*. La funzione *pacman* controlla che tutti i pacchetti utili siano stati installati, e se non lo sono li installa.  
 
@@ -106,7 +106,7 @@ x<-(db[,1:(ncol(db)-2)])
 head(x)
 ```
 
-###Costruzione del modello
+### Costruzione del modello
 
 Per costruire la matrice del modello lineare usiamo *model.matrix*. 
 
