@@ -64,7 +64,7 @@ db <- db %>%
   dplyr::select(varnames)
 ```
 
-La variabile di outcome è PeakALT, che indica il picco di transaminasi (glutammato-piruvato transaminasi) la quale evidenzia la presenza di un danno epatico. 
+La variabile di outcome è PeakALT, che indica il picco di transaminasi (glutammato-piruvato transaminasi), evidenzia la presenza di un danno epatico. 
 Prima di procedere con la separazione dei predittori dalle risposte è necessario lavorare sulle variabili che non restituiscono un valore numerico. Vogliamo trasformare i 'yes' e i 'no' in numeri, a questo proposito creiamo una funzione, in modo da poter applicare la trasformazione un'unica volta su tutte le variabili con queste caratteristiche, che selezioniamo come abbiamo fatto prima usando un vettore di stringhe contenente i nomi corrispondenti delle variabili da trasformare. 
 
 ```{r,message=FALSE, warning=FALSE}
