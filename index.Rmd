@@ -1,8 +1,9 @@
 ---
 title: "Tutorial Regressione Ridge"
-layout: default
+site: bookdown:: bookdown_site
+output: bookdown::gitbook
+documnetclass:book
 ---
-
 
 # Uso della regressione Ridge per dati biomedici
 
